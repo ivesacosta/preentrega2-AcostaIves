@@ -1,22 +1,31 @@
-body{
+.bodyy{
     font-family: sans-serif;
     margin: 0;
-    background-image: url(/Forgym/img/background-atlas.jpg);
+    background-image: url(/img/background-atlas.jpg);
     background-repeat: no repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
     background-position: center;
-    padding: 0; 
+    padding: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 
+.contenedordenav :hover{
+    color: white;
+    text-decoration: none;
+    
+    font-weight: 600;
+    padding-right: 10px;
+}
 a{
     text-decoration: none;
-    color: #617073;
+    color: #4f7981;
 }
 
-
-header{
+.navbar {
     display: flex;
     min-height: 70px;
     background-color: #171A21 ;
@@ -37,14 +46,9 @@ header{
     margin-right: 10px;
 }
 
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-}
 
-nav a:hover{
-    color: white;
-}
+
+
 @media (max-width:700px){
     header{
         flex-direction: column;
@@ -90,9 +94,13 @@ h2{
         
 }
 
-.footerprincipal{
-    display: flex;
+.footer{
+    position: absolute;
+    margin-top: auto;
+}
 
+.bodypecho{
+    
 }
 
 
