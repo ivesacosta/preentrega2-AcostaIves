@@ -1,0 +1,29 @@
+@media (max-width: 380px){
+    .videos{
+        width:100%
+    }
+    .tittle{
+        align-items: center;
+    }
+    .divContainer{
+        a{
+            font-size: small;
+        }
+        font-size: small;
+    }
+}
+
+
+@media (max-width:1920px){
+    .navbar {
+        display: flex;
+        min-height: 70px;
+        background-color: #171A21 ;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+    }
+}
+
