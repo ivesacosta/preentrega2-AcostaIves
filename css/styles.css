@@ -28,17 +28,17 @@
   .videos {
     width: 40%;
   }
-  .videos .tittle {
+  .tittle {
     align-items: center;
   }
-  .videos .divContainer {
+  .divContainer {
     font-size: small;
   }
-  .videos .divContainer a {
+  .divContainer a {
     font-size: small;
   }
 }
-@media (max-width: 380px) and (max-width: 1920px) {
+@media (max-width: 1920px) {
   .navbar {
     display: flex;
     min-height: 70px;
@@ -47,7 +47,7 @@
     align-items: center;
     padding: 10px;
     position: sticky;
-    top: 0;
+    top:  0;
   }
 }
 .containerli {
