@@ -22,20 +22,23 @@
 }
 
 @media (max-width: 380px) {
-  .videos {
-    width: 100%;
+  .bodyhtml p {
+    font-weight: 50px;
   }
-  .tittle {
+  .videos {
+    width: 40%;
+  }
+  .videos .tittle {
     align-items: center;
   }
-  .divContainer {
+  .videos .divContainer {
     font-size: small;
   }
-  .divContainer a {
+  .videos .divContainer a {
     font-size: small;
   }
 }
-@media (max-width: 1920px) {
+@media (max-width: 380px) and (max-width: 1920px) {
   .navbar {
     display: flex;
     min-height: 70px;
@@ -108,12 +111,7 @@
 }
 
 .videos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  max-width: 700px;
-  max-height: 1080px;
-  padding: 10px;
-  gap: 16px;
+  width: 40%;
 }
 
 a {

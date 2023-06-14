@@ -1,9 +1,15 @@
 @media (max-width: 380px){
-    .videos{
-        width:100%
+    .bodyhtml{
+        p{
+            font-weight: 50px;
+        }
     }
+    .videos{
+        width: 40%;
     .tittle{
         align-items: center;
+        
+        
     }
     .divContainer{
         a{
@@ -27,3 +33,4 @@
     }
 }
 
+}
