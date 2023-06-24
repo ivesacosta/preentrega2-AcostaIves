@@ -98,23 +98,26 @@ a {
   font-size: larger;
 }
 
+.navbar {
+  display: flex;
+  background-color: #171A21;
+  justify-content: space-between;
+  align-items: end;
+}
+
 @media screen and (max-width: 800px) {
   .navbar {
     display: flex;
-    min-height: 70px;
     background-color: #171A21;
-    justify-content: space-between;
-    align-items: end;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-    justify-content:  end;
-  }
-  .divcontainer {
-    display: flex;
-    justify-content: center;
+    justify-content: end;
+    align-items:  end;
   }
 }
+.divcontainer {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .containerli {
     flex-direction: column;
