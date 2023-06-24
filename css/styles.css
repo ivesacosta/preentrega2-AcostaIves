@@ -104,10 +104,11 @@ a {
     min-height: 70px;
     background-color: #171A21;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     padding: 10px;
     position: sticky;
-    top:  0;
+    top: 0;
+    justify-content:  end;
   }
   .divcontainer {
     display: flex;
@@ -123,12 +124,24 @@ a {
   }
 }
 @media (max-width: 576px) {
+  .divContainer div {
+    justify-self: center;
+  }
   .divContainer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
 }
+.divContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
 .navbar {
   display: flex;
   background-color: #171A21;
