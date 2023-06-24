@@ -21,35 +21,6 @@
   margin: 5px;
 }
 
-@media (max-width: 380px) {
-  .bodyhtml p {
-    font-weight: 50px;
-  }
-  .videos {
-    width: 40%;
-  }
-  .tittle {
-    align-items: center;
-  }
-  .divContainer {
-    font-size: small;
-  }
-  .divContainer a {
-    font-size: small;
-  }
-}
-@media (max-width: 1920px) {
-  .navbar {
-    display: flex;
-    min-height: 70px;
-    background-color: #171A21;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    position: sticky;
-    top:  0;
-  }
-}
 .containerli {
   display: flex;
   align-items: flex-end;
@@ -66,9 +37,6 @@
   background-image: url(/img/background-atlas.jpg);
   background-repeat: no repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: center;
   padding: 0;
   display: grid;
   min-height: 100vh;
@@ -107,11 +75,20 @@
   justify-content: center;
   justify-content: space-evenly;
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .videos {
   width: 40%;
+  margin-left: 5%;
+  border: black solid;
+}
+
+.imagenes-index {
+  display: grid;
+  height: 30vh;
+  width: 25vh;
+  border: black solid;
 }
 
 a {
@@ -121,8 +98,47 @@ a {
   font-size: larger;
 }
 
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: flex;
+    min-height: 70px;
+    background-color: #171A21;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top:  0;
+  }
+  .divcontainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .containerli {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .divContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
+.navbar {
+  display: flex;
+  background-color: #171A21;
+  justify-content: space-between;
+  align-items: end;
+}
+
 h3 {
   color: darkslateblue;
+  margin-left: 10px;
 }
 
 h2 {
