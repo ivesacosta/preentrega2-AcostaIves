@@ -90,6 +90,15 @@
   border: black solid;
 }
 
+.imagen-couch {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 450px;
+  display: inline;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
 a {
   text-decoration: none;
   color: #054f5d;
