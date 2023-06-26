@@ -16,8 +16,7 @@
   text-decoration: none;
   color: #186b7b;
 }
-
-.nav-link {
+.contenedordenav .nav-link {
   margin: 5px;
 }
 
@@ -109,8 +108,12 @@ a {
   .navbar {
     display: flex;
     background-color: #171A21;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .contenedordenav {
     justify-content: end;
-    align-items:  end;
+    width: 100%;
   }
 }
 .divcontainer {
@@ -143,13 +146,6 @@ a {
   margin-top: 20px;
   font-size: 20px;
   flex-wrap: wrap;
-}
-
-.navbar {
-  display: flex;
-  background-color: #171A21;
-  justify-content: space-between;
-  align-items: end;
 }
 
 h3 {
