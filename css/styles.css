@@ -33,13 +33,18 @@
 .body {
   font-family: sans-serif;
   margin: 0;
-  background-image: url(/img/background-atlas.jpg);
+  background-image: url(/img/atlasbackgroundcut.PNG);
   background-repeat: no repeat;
   background-size: cover;
+  background-position: 30% 70%;
   padding: 0;
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
+}
+
+.bodyhtml {
+  background-color: grey;
 }
 
 .centrar {
@@ -66,7 +71,7 @@
 }
 
 .fondodelistas {
-  color: #617073;
+  color: navy;
 }
 
 .divContainer {
@@ -124,6 +129,11 @@ a {
     justify-content: end;
     width: 100%;
   }
+  .body {
+    background-position: 40%;
+    background-position: center;
+    background-position-y: 40%;
+  }
 }
 .divcontainer {
   display: flex;
@@ -158,10 +168,14 @@ a {
 }
 
 h3 {
-  color: darkslateblue;
+  color: indigo;
   margin-left: 10px;
+  font-family: "Belanosima", sans-serif;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
 }
 
 h2 {
   color: #7a93ac;
+  font-family: "Belanosima", sans-serif;
 }/*# sourceMappingURL=styles.css.map */
