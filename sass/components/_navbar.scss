@@ -10,6 +10,7 @@
         align-content: space-around !important;
         justify-content: space-between;
         
+        
 a{
     text-decoration: none;
     color: #186b7b;
@@ -18,9 +19,8 @@ a{
     margin: 5px;
 }
 
+}
 
-
-
-
-
-    }
+.containerli{
+    flex-direction: row;
+}

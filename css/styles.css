@@ -21,6 +21,10 @@
 }
 
 .containerli {
+  flex-direction: row;
+}
+
+.containerli {
   display: flex;
   align-items: flex-end;
   height: 100%;
@@ -72,6 +76,7 @@
 
 .fondodelistas {
   color: navy;
+  flex-direction: row;
 }
 
 .divContainer {
@@ -125,10 +130,6 @@ a {
     justify-content: center;
     align-items: center;
   }
-  .navbar .contenedordenav {
-    justify-content: end;
-    width: 100%;
-  }
   .body {
     background-position: 40%;
     background-position: center;
@@ -142,7 +143,7 @@ a {
 
 @media (max-width: 768px) {
   .containerli {
-    flex-direction: column;
+    flex-direction: row;
   }
   .nav-link {
     margin-bottom: 10px;
@@ -178,4 +179,6 @@ h3 {
 h2 {
   color: #7a93ac;
   font-family: "Belanosima", sans-serif;
+  text-transform: capitalize;
+  text-shadow: 1px 0 indigo, 2px 0 blue;
 }/*# sourceMappingURL=styles.css.map */
